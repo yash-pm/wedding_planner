@@ -1,0 +1,18 @@
+.container_ {
+  position: relative;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.container_ img {vertical-align: middle;}
+
+.container_ .content_ {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 380px;
+  padding: 20px;
+}
+
